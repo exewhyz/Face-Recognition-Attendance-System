@@ -397,7 +397,7 @@ class Attendance:
 
 
 
-    #     conn = mysql.connector.connect(username='root', password='82288228aA@',host='localhost',database='face_recognition',port=3306)
+    #     conn = mysql.connector.connect(username='root', password='your_password',host='localhost',database='face_recognition',port=3306)
     #     mycursor = conn.cursor()
     #     if messagebox.askyesno("Confirmation","Are you sure you want to save attendance on database?"):
     #         for i in mydata:
