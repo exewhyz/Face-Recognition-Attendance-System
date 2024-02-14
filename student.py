@@ -6,7 +6,7 @@ import mysql.connector
 import cv2
 
 # Testing Connection 
-conn = mysql.connector.connect(username='root', password='82288228aA@',host='localhost',database='face_recognition',port=3306)
+conn = mysql.connector.connect(username='root', password='your_password',host='localhost',database='face_recognition',port=3306)
 cursor = conn.cursor()
 
 cursor.execute("show databases")
